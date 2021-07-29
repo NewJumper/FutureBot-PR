@@ -8,7 +8,7 @@ module.exports = class Help2Command extends Commando.Command {
     constructor(client) {
         super(client, {
             name: 'help2',
-            group: 'server',
+            group: 'utility',
             memberName: 'help2',
             description: 'A list of all the commands of FutureBot.',
             throttling: {

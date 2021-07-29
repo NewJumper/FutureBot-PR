@@ -6,7 +6,7 @@ module.exports = class FuturebotUpdatesCommand extends Commando.Command {
         super(client, {
             name: 'futurebot-updates',
             aliases: ['bot-updates'],
-            group: 'server',
+            group: 'utility',
             memberName: 'futurebot-updates',
             description: 'FutureBot updates and patch notes.',
             userPermissions: ['ADMINISTRATOR'],

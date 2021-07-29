@@ -23,10 +23,9 @@ client.once('ready', async () => {
 	.registerGroups([
 		['calculation', 'Calculation Commands'],
 		['economy', 'Economy Commands'],
-		['miscellaneous', 'Miscellaneous Commands'],
 		['moderation', 'Moderation Commands'],
 		['ranking', 'Ranking Commands'],
-		['server', 'Server Commands']
+		['utility', 'Utility Commands']
 	])
 	.registerDefaultGroups()
 	.registerDefaultCommands({
